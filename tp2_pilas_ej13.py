@@ -5,7 +5,6 @@ class Stack:
     def __init__(self):
         self.__elements = []
 
-
     def push(self, value: Any) -> None:
         self.__elements.append(value)
 
