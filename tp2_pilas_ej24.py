@@ -104,7 +104,7 @@ def peliculas_black_widow(stack):
 def personajes_CDG(stack):
     aux = Stack()
 
-    print("Personajes cuyos nombres empiezan con C, D o G:")
+    print("personajes cuyos nombres empiezan con C, D o G:")
     while stack.size() > 0:
         personaje = stack.pop()
         if personaje['nombre'].startswith(('C', 'D', 'G')):
