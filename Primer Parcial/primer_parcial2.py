@@ -953,7 +953,7 @@ letras = ("Bl", "G", "My", "W")
 
 for personaje in superheroes:
     if not personaje["is_villain"] and personaje["name"].startswith(letras):
-        print("superheroes que empiezan con Bl, G, My, W")
+        print(personaje)
 
 #6
 def obtener_nombre_real(personaje):
@@ -978,8 +978,8 @@ if posicion_antman is not None:
 
 #9
 for personaje in superheroes:
-    bio = personaje["short_bio"].lower()
-    if "time-traveling" in bio or "suit" in bio:
+    biografia = personaje["short_bio"].lower()
+    if "time-traveling" in biografia or "suit" in biografia:
         print(personaje)
 
 #10
