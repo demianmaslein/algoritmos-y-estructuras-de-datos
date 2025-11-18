@@ -1,6 +1,6 @@
 from class_graph import Graph
 from class_tree import BinaryTree
-from personajes import personajes
+from personajes_data import personajes
 
 
 g_sw = Graph(is_directed=False)
@@ -66,5 +66,6 @@ print("personajes presentes en los 9 episodios:")
 for p in personajes:
     if len(p["episodios"]) == 9:
         print(p["nombre"])
+
 
 
